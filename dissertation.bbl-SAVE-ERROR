@@ -1,0 +1,1230 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ulen1}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=80a46e936ce8d72d6f64c4144c5aaaa0}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={O.N.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=bad7b520ee2392ede28e91980bbc3975}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={E.S.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=67c06cd1244b3d4bc31cb595860b242c}{%
+           family={Gromova},
+           familyi={G\bibinitperiod},
+           given={O.V.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a848153dceaf0ebcfe36b1ccf91da23d}{%
+           family={Fomchenko},
+           familyi={F\bibinitperiod},
+           given={A.L.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5731c20b132bace65ded0d0c9c293133}{%
+           family={Nikolaeva},
+           familyi={N\bibinitperiod},
+           given={N.I.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8c4b255325702128235213c8f008fdfc}{%
+           family={Glushkov},
+           familyi={G\bibinitperiod},
+           given={P.A.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=34aedfeee12228d4569a30b4c9ec5bfb}{%
+           family={Bauerecker},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{fullhash}{c089ded26671a41e13cfbea23e13a588}
+      \strng{fullhashraw}{c089ded26671a41e13cfbea23e13a588}
+      \strng{bibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorbibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authornamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorfullhash}{c089ded26671a41e13cfbea23e13a588}
+      \strng{authorfullhashraw}{c089ded26671a41e13cfbea23e13a588}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy}
+      \field{title}{On the method and results of calculation of vibrational tetrahedral sub-level energies and resonance interactions in vibrational spectra of high symmetry molecules: CH4 and GeH4 as an application of the XY4 (Td) molecule}
+      \field{volume}{284}
+      \field{year}{2023}
+      \field{pages}{121796}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.saa.2022.121796
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S138614252200943X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S138614252200943X
+      \endverb
+      \keyw{,biblioauthor,bibliofull}
+    \endentry
+    \entry{ulen2}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=697c79bc8e310fcba1aff813e28ae95f}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={Oleg\bibnamedelima N.},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=9d055c654a95d653361d85848b01baea}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={Elena\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6bfa82860b9192af3943871f1d54304c}{%
+           family={Gromova},
+           familyi={G\bibinitperiod},
+           given={Olga\bibnamedelima V.},
+           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=d9330a976ac5e1ea3889d22068f7efb3}{%
+           family={Fomchenko},
+           familyi={F\bibinitperiod},
+           given={Anna\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ced80a192c72f0f39bad130a89c772a5}{%
+           family={Glushkov},
+           familyi={G\bibinitperiod},
+           given={Petr\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a2b86d79ca00c5c35d74da3ad152e965}{%
+           family={Bauerecker},
+           familyi={B\bibinitperiod},
+           given={Sigurd},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{18eac82030c9191a96b76c2db683ae17}
+      \strng{fullhash}{17b2ed325f7734aaf7979245fa441399}
+      \strng{fullhashraw}{17b2ed325f7734aaf7979245fa441399}
+      \strng{bibnamehash}{18eac82030c9191a96b76c2db683ae17}
+      \strng{authorbibnamehash}{18eac82030c9191a96b76c2db683ae17}
+      \strng{authornamehash}{18eac82030c9191a96b76c2db683ae17}
+      \strng{authorfullhash}{17b2ed325f7734aaf7979245fa441399}
+      \strng{authorfullhashraw}{17b2ed325f7734aaf7979245fa441399}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative Transfer}
+      \field{title}{Analytical presentation of symmetrized vibrational functions of high symmetry molecules for applications in molecular spectroscopy and chemical physics: Accurate prediction of the vibrational spectrum of GeH4 up to 8000 cm-1 as a relevant application example}
+      \field{volume}{321}
+      \field{year}{2024}
+      \field{pages}{108997}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jqsrt.2024.108997
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022407324001043
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022407324001043
+      \endverb
+      \keyw{,biblioauthor,bibliofull}
+    \endentry
+    \entry{abinitio_1}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e5080f6f2673ad05e0d924a227e885bb}{%
+           family={Mladenović},
+           familyi={M\bibinitperiod},
+           given={Mirjana},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c195735e1b05e88b3de930c978504b71}{%
+           family={Botschwina},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f9d95db72d3f2197db660a1c944f29c6}{%
+           family={Puzzarini},
+           familyi={P\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{fullhash}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{fullhashraw}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{bibnamehash}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{authorbibnamehash}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{authornamehash}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{authorfullhash}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \strng{authorfullhashraw}{ad8b7ee559b62de2d3c0f2f8404977b4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry A}
+      \field{note}{PMID: 16623485}
+      \field{number}{16}
+      \field{title}{Six-Dimensional Potential Energy Surface and Rovibrational Energies of the HCCN Radical in the Ground Electronic State}
+      \field{volume}{110}
+      \field{year}{2006}
+      \field{pages}{5520\bibrangedash 5529}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/jp056743u
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/jp056743u
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jp056743u
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jp056743u
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_3}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3a2585af369dbd4150db746c63177b0c}{%
+           family={Grimme},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9ea89f28c9ac3083757e980d0b4a8fec}{%
+           family={Antony},
+           familyi={A\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c1a85a74b8b1d9992721d20377d7f50f}{%
+           family={Ehrlich},
+           familyi={E\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=46ef1d196909f4706f09f9180d33ab91}{%
+           family={Krieg},
+           familyi={K\bibinitperiod},
+           given={Helge},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f2c045e27c631b672c2213391161e48}
+      \strng{fullhash}{e1a418c5d65690d89c4609d3b99952c2}
+      \strng{fullhashraw}{e1a418c5d65690d89c4609d3b99952c2}
+      \strng{bibnamehash}{7f2c045e27c631b672c2213391161e48}
+      \strng{authorbibnamehash}{7f2c045e27c631b672c2213391161e48}
+      \strng{authornamehash}{7f2c045e27c631b672c2213391161e48}
+      \strng{authorfullhash}{e1a418c5d65690d89c4609d3b99952c2}
+      \strng{authorfullhashraw}{e1a418c5d65690d89c4609d3b99952c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{04}
+      \field{number}{15}
+      \field{title}{A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu}
+      \field{volume}{132}
+      \field{year}{2010}
+      \field{pages}{154104}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3382344
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.3382344/15684000/154104\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3382344
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3382344
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_5}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b51fe517ddd5ed2e52aef60bc11da7bb}{%
+           family={Rocca},
+           familyi={R\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e5b974df0de511f3c3010b8f793b4d12}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Deyu},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a445f4adf3884b1260180426357334a6}{%
+           family={Galli},
+           familyi={G\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{fullhash}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{fullhashraw}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{bibnamehash}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{authorbibnamehash}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{authornamehash}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{authorfullhash}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \strng{authorfullhashraw}{e0d3c206efdb63f8d89cf8470abaa57c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{10}
+      \field{number}{16}
+      \field{title}{Ab initio calculations of optical absorption spectra: Solution of the Bethe-Salpeter equation within density matrix perturbation theory}
+      \field{volume}{133}
+      \field{year}{2010}
+      \field{pages}{164109}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3494540
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.3494540/13521334/164109\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3494540
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3494540
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_6}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=7452898004ac24bdb4a017a12c8bec23}{%
+           family={Karton},
+           familyi={K\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=080a6b8f3aa90c586f6f53bf0770d2bb}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{fullhash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{fullhashraw}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{bibnamehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authorbibnamehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authornamehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authorfullhash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authorfullhashraw}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{editorbibnamehash}{080a6b8f3aa90c586f6f53bf0770d2bb}
+      \strng{editornamehash}{080a6b8f3aa90c586f6f53bf0770d2bb}
+      \strng{editorfullhash}{080a6b8f3aa90c586f6f53bf0770d2bb}
+      \strng{editorfullhashraw}{080a6b8f3aa90c586f6f53bf0770d2bb}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Annual Reports in Computational Chemistry}
+      \field{title}{Chapter Three - Quantum mechanical thermochemical predictions 100years after the Schrödinger equation}
+      \field{volume}{18}
+      \field{year}{2022}
+      \field{pages}{123\bibrangedash 166}
+      \range{pages}{44}
+      \verb{doi}
+      \verb https://doi.org/10.1016/bs.arcc.2022.09.003
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1574140022000032
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1574140022000032
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_8}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1eec2662e4409b8f299828e3d82ebc0f}{%
+           family={Demaison},
+           familyi={D\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5a1aff874308d0ca9a5b0e1cc904428d}{%
+           family={Liévin},
+           familyi={L\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+        {{hash=83d5edc116f6da7284621ed148ffbdde}{%
+           family={Vogt},
+           familyi={V\bibinitperiod},
+           given={Natalja},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{fullhash}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{fullhashraw}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{bibnamehash}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{authorbibnamehash}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{authornamehash}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{authorfullhash}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \strng{authorfullhashraw}{b3901e8d6f8b6c3f76425c4513d0298b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Spectroscopy}
+      \field{title}{Accurate equilibrium structures of some challenging molecules: FNO, ClNO, HONO, FNO2, and N2O}
+      \field{volume}{394}
+      \field{year}{2023}
+      \field{pages}{111788}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jms.2023.111788
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S002228522300053X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S002228522300053X
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_9}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=9a46a223657b6f37d78376d1ae88fafa}{%
+           family={Perera},
+           familyi={P\bibinitperiod},
+           given={Ajith},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d039e22001d3b0bb329e4fa0e4f36a2c}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Young\bibnamedelima Choon},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6003c1c6ab968c62ecde306c878b501f}{%
+           family={Bartlett},
+           familyi={B\bibinitperiod},
+           given={Rodney\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4d550114db6c09124891822abeb18fe5}{%
+           family={Yáñez},
+           familyi={Y\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca0be9b4542a7cf1f2df6f93035dd88d}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Russell\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{fullhash}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{fullhashraw}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{bibnamehash}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{authorbibnamehash}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{authornamehash}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{authorfullhash}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{authorfullhashraw}{a61573744f9bbc55efa800d7cde2ef9f}
+      \strng{editorbibnamehash}{e17fffa2d2aeecf474698c59623af507}
+      \strng{editornamehash}{e17fffa2d2aeecf474698c59623af507}
+      \strng{editorfullhash}{e17fffa2d2aeecf474698c59623af507}
+      \strng{editorfullhashraw}{e17fffa2d2aeecf474698c59623af507}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Comprehensive Computational Chemistry (First Edition)}
+      \field{edition}{First Edition}
+      \field{isbn}{978-0-12-823256-9}
+      \field{title}{How Coupled-Cluster Theory is Solving the Electron Correlation Problem}
+      \field{year}{2024}
+      \field{pages}{18\bibrangedash 46}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-821978-2.00137-9
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128219782001379
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128219782001379
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_10}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=7452898004ac24bdb4a017a12c8bec23}{%
+           family={Karton},
+           familyi={K\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4d550114db6c09124891822abeb18fe5}{%
+           family={Yáñez},
+           familyi={Y\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca0be9b4542a7cf1f2df6f93035dd88d}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Russell\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{fullhash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{fullhashraw}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{bibnamehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authorbibnamehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authornamehash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authorfullhash}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{authorfullhashraw}{7452898004ac24bdb4a017a12c8bec23}
+      \strng{editorbibnamehash}{e17fffa2d2aeecf474698c59623af507}
+      \strng{editornamehash}{e17fffa2d2aeecf474698c59623af507}
+      \strng{editorfullhash}{e17fffa2d2aeecf474698c59623af507}
+      \strng{editorfullhashraw}{e17fffa2d2aeecf474698c59623af507}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Comprehensive Computational Chemistry (First Edition)}
+      \field{edition}{First Edition}
+      \field{isbn}{978-0-12-823256-9}
+      \field{title}{Benchmark Accuracy in Thermochemistry, Kinetics, and Noncovalent Interactions}
+      \field{year}{2024}
+      \field{pages}{47\bibrangedash 68}
+      \range{pages}{22}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-821978-2.00129-X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B978012821978200129X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B978012821978200129X
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{abinitio_11}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a93b8943abd78c0d185b167d9e54ef3c}{%
+           family={Mester},
+           familyi={M\bibinitperiod},
+           given={Dávid},
+           giveni={D\bibinitperiod}}}%
+        {{hash=876380eb79e00f8443619f464bcf13f5}{%
+           family={Kállay},
+           familyi={K\bibinitperiod},
+           given={Mihály},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{fullhash}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{fullhashraw}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{bibnamehash}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{authorbibnamehash}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{authornamehash}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{authorfullhash}{0428f2bee089ddb2685f025946afd6fb}
+      \strng{authorfullhashraw}{0428f2bee089ddb2685f025946afd6fb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{title}{Higher-order coupled-cluster calculations with basis-set corrections}
+      \field{volume}{861}
+      \field{year}{2025}
+      \field{pages}{141780}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cplett.2024.141780
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S000926142400722X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S000926142400722X
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{kuchitsu}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=422d4b1b7df100952b1e04f58f767ee7}{%
+           family={Kuchitsu},
+           familyi={K\bibinitperiod},
+           given={Kozo},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ddb03466db56cacd0b4bf9fcb5554a88}{%
+           family={Morino},
+           familyi={M\bibinitperiod},
+           given={Yonezo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{fullhash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{fullhashraw}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{bibnamehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authorbibnamehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authornamehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authorfullhash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authorfullhashraw}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the Chemical Society of Japan}
+      \field{month}{03}
+      \field{number}{5}
+      \field{title}{Estimation of Anharmonic Potential Constants. II. Bent XY2 Molecules}
+      \field{volume}{38}
+      \field{year}{2006}
+      \field{pages}{814\bibrangedash 824}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1246/bcsj.38.814
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/bcsj/article-pdf/38/5/814/55785829/bcsj.38.814.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1246/bcsj.38.814
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1246/bcsj.38.814
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{nielsen}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbe3fb1e0de5c889588b664803d3eaf9}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Harald\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{fullhash}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{fullhashraw}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{bibnamehash}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{authorbibnamehash}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{authornamehash}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{authorfullhash}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \strng{authorfullhashraw}{cbe3fb1e0de5c889588b664803d3eaf9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{04}
+      \field{title}{The Vibration-Rotation Energies of Molecules}
+      \field{volume}{23}
+      \field{year}{1951}
+      \field{pages}{90\bibrangedash 136}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.23.90
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.23.90
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.23.90
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{1163}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=422d4b1b7df100952b1e04f58f767ee7}{%
+           family={Kuchitsu},
+           familyi={K\bibinitperiod},
+           given={Kozo},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ddb03466db56cacd0b4bf9fcb5554a88}{%
+           family={Morino},
+           familyi={M\bibinitperiod},
+           given={Yonezo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{fullhash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{fullhashraw}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{bibnamehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authorbibnamehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authornamehash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authorfullhash}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \strng{authorfullhashraw}{eb1dcc85743dd7a9e928c5f04407a80c}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the Chemical Society of Japan}
+      \field{month}{03}
+      \field{number}{5}
+      \field{title}{Estimation of Anharmonic Potential Constants. II. Bent XY2 Molecules}
+      \field{volume}{38}
+      \field{year}{2006}
+      \field{pages}{814\bibrangedash 824}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1246/bcsj.38.814
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/bcsj/article-pdf/38/5/814/55785829/bcsj.38.814.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1246/bcsj.38.814
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1246/bcsj.38.814
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{locmode}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=80a46e936ce8d72d6f64c4144c5aaaa0}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={O.N.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=bad7b520ee2392ede28e91980bbc3975}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={E.S.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a848153dceaf0ebcfe36b1ccf91da23d}{%
+           family={Fomchenko},
+           familyi={F\bibinitperiod},
+           given={A.L.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a9a5c42d0ddc2222c7a41da0c6a6a4a8}{%
+           family={Litvinovskaya},
+           familyi={L\bibinitperiod},
+           given={A.G.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f020dfa3a9ad1a53b8545541423feb9}{%
+           family={Leroy},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0e7001f2d937a4c28200f0b96d5cd4b5}{%
+           family={and},
+           familyi={a\bibinitperiod},
+           given={M.\bibnamedelimi Quack},
+           giveni={M\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{fullhash}{900f97e9f38c9d07d03c7de5a4b18c91}
+      \strng{fullhashraw}{900f97e9f38c9d07d03c7de5a4b18c91}
+      \strng{bibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorbibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authornamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorfullhash}{900f97e9f38c9d07d03c7de5a4b18c91}
+      \strng{authorfullhashraw}{900f97e9f38c9d07d03c7de5a4b18c91}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Physics}
+      \field{number}{19}
+      \field{title}{On the ‘expanded local mode’ approach applied to the methane molecule: isotopic substitutions CH3D ←CH4 and CHD3 ←CH4}
+      \field{volume}{112}
+      \field{year}{2014}
+      \field{pages}{2529\bibrangedash 2556}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1080/00268976.2014.912360
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/00268976.2014.912360
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00268976.2014.912360
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00268976.2014.912360
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{MWour}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=27040c91dbf08fd7d63d651441e5c3fe}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7e6dd1ae992a6cdf7335048f8bb6ae2a}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1a7f7fb1ae7a95d918dd6bc5979d8757}{%
+           family={Gromova},
+           familyi={G\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod}}}%
+        {{hash=3f6eb206165f7b41dd4d2f52eac7c4b2}{%
+           family={Sidko},
+           familyi={S\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a2b86d79ca00c5c35d74da3ad152e965}{%
+           family={Bauerecker},
+           familyi={B\bibinitperiod},
+           given={Sigurd},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{67383f70ff2a7a83b3711fcad7a8f0c2}
+      \strng{fullhash}{c0e06ce147734dea181fd321b5e6c959}
+      \strng{fullhashraw}{c0e06ce147734dea181fd321b5e6c959}
+      \strng{bibnamehash}{67383f70ff2a7a83b3711fcad7a8f0c2}
+      \strng{authorbibnamehash}{67383f70ff2a7a83b3711fcad7a8f0c2}
+      \strng{authornamehash}{67383f70ff2a7a83b3711fcad7a8f0c2}
+      \strng{authorfullhash}{c0e06ce147734dea181fd321b5e6c959}
+      \strng{authorfullhashraw}{c0e06ce147734dea181fd321b5e6c959}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Molecular Sciences}
+      \field{number}{2}
+      \field{title}{A Method for the Precise Determination of the Intramolecular Potential Energy Surface on the Basis of Microwave and Submillimeter-Wave Spectra: Diatomic Molecules as a Relevant Illustration}
+      \field{volume}{26}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.3390/ijms26020658
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1422-0067/26/2/658
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1422-0067/26/2/658
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{0101}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1c1dba966f652122b6ec679c4d4aaef2}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={Yuen\bibnamedelima Y.},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{fullhash}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{fullhashraw}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{bibnamehash}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{authorbibnamehash}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{authornamehash}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{authorfullhash}{1c1dba966f652122b6ec679c4d4aaef2}
+      \strng{authorfullhashraw}{1c1dba966f652122b6ec679c4d4aaef2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Spectroscopy}
+      \field{number}{1}
+      \field{title}{The interacting states of an asymmetric top molecule XY2 of the group C2v: Application to five interacting states (101), (021), (120), (200), and (002) of H216O}
+      \field{volume}{71}
+      \field{year}{1978}
+      \field{pages}{260\bibrangedash 280}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0022-2852(78)90085-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022285278900851
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022285278900851
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{0102}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f00d7088824213136b28d6a052c5f291}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={James\bibnamedelimb K.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f00d7088824213136b28d6a052c5f291}
+      \strng{fullhash}{f00d7088824213136b28d6a052c5f291}
+      \strng{fullhashraw}{f00d7088824213136b28d6a052c5f291}
+      \strng{bibnamehash}{f00d7088824213136b28d6a052c5f291}
+      \strng{authorbibnamehash}{f00d7088824213136b28d6a052c5f291}
+      \strng{authornamehash}{f00d7088824213136b28d6a052c5f291}
+      \strng{authorfullhash}{f00d7088824213136b28d6a052c5f291}
+      \strng{authorfullhashraw}{f00d7088824213136b28d6a052c5f291}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{03}
+      \field{number}{5}
+      \field{title}{Determination of Centrifugal Distortion Coefficients of Asymmetric‐Top Molecules}
+      \field{volume}{46}
+      \field{year}{1967}
+      \field{pages}{1935\bibrangedash 1949}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1063/1.1840957
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/46/5/1935/18849604/1935\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1840957
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1840957
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{0103}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=80a46e936ce8d72d6f64c4144c5aaaa0}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={O.N.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=894c40295700a9f5031a1680c137669e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={A.-W.},
+           giveni={A\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=bad7b520ee2392ede28e91980bbc3975}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={E.S.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=67c06cd1244b3d4bc31cb595860b242c}{%
+           family={Gromova},
+           familyi={G\bibinitperiod},
+           given={O.V.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=e086fd955cb9a8727a37957453b35e88}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={L.-Y.},
+           giveni={L\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=da9d1a732a90a930cf656ef8e00f877c}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={S.-M.},
+           giveni={S\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{fullhash}{0c6ddc3645d8847086d71c4ce9c14ba7}
+      \strng{fullhashraw}{0c6ddc3645d8847086d71c4ce9c14ba7}
+      \strng{bibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorbibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authornamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorfullhash}{0c6ddc3645d8847086d71c4ce9c14ba7}
+      \strng{authorfullhashraw}{0c6ddc3645d8847086d71c4ce9c14ba7}
+      \field{extraname}{5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Spectroscopy}
+      \field{number}{1}
+      \field{title}{On the study of high-resolution rovibrational spectrum of H2S in the region of 7300-7900cm-1}
+      \field{volume}{226}
+      \field{year}{2004}
+      \field{pages}{57\bibrangedash 70}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jms.2004.03.014
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022285204000967
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022285204000967
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{0104}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=63e59e5eadbdfde392fcaaf1f9b89a1f}{%
+           family={Fusina},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2d1e9a5afb2eb125b5e2156189458316}{%
+           family={Scappini},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8f53c97761214c8c499e3dc775dd5efe}{%
+           family={Dinelli},
+           familyi={D\bibinitperiod},
+           given={B.M.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{fullhash}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{fullhashraw}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{bibnamehash}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{authorbibnamehash}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{authornamehash}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{authorfullhash}{def5bc4a36b3e11d570c3f99687210da}
+      \strng{authorfullhashraw}{def5bc4a36b3e11d570c3f99687210da}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Spectroscopy}
+      \field{number}{2}
+      \field{title}{Hyperfine Structure Analysis of Arsine in the Ground, v2 = 1, and v4 = 1 States}
+      \field{volume}{157}
+      \field{year}{1993}
+      \field{pages}{413\bibrangedash 418}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1006/jmsp.1993.1033
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022285283710337
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022285283710337
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{8855}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=80a46e936ce8d72d6f64c4144c5aaaa0}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={O.N.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=67c06cd1244b3d4bc31cb595860b242c}{%
+           family={Gromova},
+           familyi={G\bibinitperiod},
+           given={O.V.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=bad7b520ee2392ede28e91980bbc3975}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={E.S.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3eb2fd16d07c856a6d0d1fe23b42b38b}{%
+           family={Berezkin},
+           familyi={B\bibinitperiod},
+           given={K.B.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4d5f6ea8bc497238dbc142756596ef14}{%
+           family={Sklyarova},
+           familyi={S\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=23b361596df74cdf322dbb1d33b10040}{%
+           family={Maul},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=affcd516586fef5c68a936c92f2cb197}{%
+           family={Gericke},
+           familyi={G\bibinitperiod},
+           given={K.-H.},
+           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=34aedfeee12228d4569a30b4c9ec5bfb}{%
+           family={Bauerecker},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{fullhash}{8db6011021a2f7df98461ed7b2565598}
+      \strng{fullhashraw}{8db6011021a2f7df98461ed7b2565598}
+      \strng{bibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorbibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authornamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorfullhash}{8db6011021a2f7df98461ed7b2565598}
+      \strng{authorfullhashraw}{8db6011021a2f7df98461ed7b2565598}
+      \field{extraname}{6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative Transfer}
+      \field{title}{Study of the high resolution FTIR spectrum of CH2CD2 in the region of 1300-1450cm-1: The v12(A1) and 2v10(A1) bands}
+      \field{volume}{161}
+      \field{year}{2015}
+      \field{pages}{180\bibrangedash 196}
+      \range{pages}{17}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jqsrt.2015.04.008
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022407315001594
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022407315001594
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{0105}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=80a46e936ce8d72d6f64c4144c5aaaa0}{%
+           family={Ulenikov},
+           familyi={U\bibinitperiod},
+           given={O.N.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=67c06cd1244b3d4bc31cb595860b242c}{%
+           family={Gromova},
+           familyi={G\bibinitperiod},
+           given={O.V.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=bad7b520ee2392ede28e91980bbc3975}{%
+           family={Bekhtereva},
+           familyi={B\bibinitperiod},
+           given={E.S.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a848153dceaf0ebcfe36b1ccf91da23d}{%
+           family={Fomchenko},
+           familyi={F\bibinitperiod},
+           given={A.L.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c4afda0768b67cffddba7859319143ed}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fangce},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ca04235684b7d3178cad3799129afdbc}{%
+           family={Sydow},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=23b361596df74cdf322dbb1d33b10040}{%
+           family={Maul},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=34aedfeee12228d4569a30b4c9ec5bfb}{%
+           family={Bauerecker},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{fullhash}{ec7ec867d453a962a718dffaa92240da}
+      \strng{fullhashraw}{ec7ec867d453a962a718dffaa92240da}
+      \strng{bibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorbibnamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authornamehash}{56550b7ccdf958aeb05174781762bd51}
+      \strng{authorfullhash}{ec7ec867d453a962a718dffaa92240da}
+      \strng{authorfullhashraw}{ec7ec867d453a962a718dffaa92240da}
+      \field{extraname}{7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative Transfer}
+      \field{title}{High resolution analysis of C2D4 in the region of 600-1150cm-1}
+      \field{volume}{182}
+      \field{year}{2016}
+      \field{pages}{55\bibrangedash 70}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jqsrt.2016.04.026
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022407316301364
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022407316301364
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{hecht}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7c97d9ee21d4f5d9aa7def923f45f08b}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Karl\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{fullhash}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{fullhashraw}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{bibnamehash}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{authorbibnamehash}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{authornamehash}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{authorfullhash}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \strng{authorfullhashraw}{7c97d9ee21d4f5d9aa7def923f45f08b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Spectroscopy}
+      \field{number}{1}
+      \field{title}{The vibration-rotation energies of tetrahedral XY4 molecules: Part I. Theory of spherical top molecules}
+      \field{volume}{5}
+      \field{year}{1961}
+      \field{pages}{355\bibrangedash 389}
+      \range{pages}{35}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0022-2852(61)90102-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0022285261901023
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0022285261901023
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
