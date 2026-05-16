@@ -1,0 +1,40 @@
+\chapter{Вспомогательные таблицы к главе о молекуле силана}\label{app:si_tables}
+
+В настоящем приложении приведены громоздкие таблицы, использованные в основном тексте диссертации. Они вынесены
+из основного текста, чтобы не нарушать верстку главы.
+
+% Нефлотирующая подпись для широких повернутых таблиц. Нужна, чтобы таблицы
+% оставались в том разделе приложения, где подключены, и не меняли порядок.
+\makeatletter
+\newcommand{\apptablecaption}[2]{%
+  \par\refstepcounter{table}\label{#1}%
+  \begin{center}\small\tablename~\thetable{} --- #2\end{center}%
+  \vspace{0.4ex}%
+}
+\makeatother
+
+% \section{Матричные элементы эффективного колебательного гамильтониана}\label{app:si_hamiltonian_tables}
+
+% В табл.~\ref{tab:si_hamiltonian_elements_1}--\ref{tab:si_hamiltonian_elements_f2}
+% приведены матричные элементы, использованные при построении эффективного
+% колебательного гамильтониана. Из-за ширины таблиц каждая из них размещена на
+% отдельной странице приложения.
+
+% \input{tables/si_table_hamiltonian_f1_3nu2_3nu4.tex}
+
+% \input{tables/si_table_hamiltonian_f1_combinations.tex}
+
+% \input{tables/si_table_hamiltonian_a1_additional.tex}
+
+% \input{tables/si_table_hamiltonian_f2_additional.tex}
+
+% \clearpage
+\section{Центры полос и спектроскопические параметры}\label{app:si_fit_tables}
+
+\input{tables/si_table_band_centers_28.tex}
+
+\input{tables/si_table_band_centers_29_30.tex}
+
+\input{tables/si_table_vibrational_parameters.tex}
+
+\input{tables/si_table_predicted_vibrational_levels.tex}
