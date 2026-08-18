@@ -13,13 +13,7 @@
 
 \newcommand{\maybeincludegraphics}[2][]{%
   \ifdraftfigures
-    \fbox{%
-      \begin{minipage}[c][0.18\textheight][c]{0.85\linewidth}
-        \centering
-        \textbf{Заглушка рисунка}\\[0.5em]
-        \footnotesize\ttfamily\detokenize{#2}
-      \end{minipage}%
-    }%
+    \includegraphics[draft,#1]{#2}%
   \else
     \includegraphics[#1]{#2}%
   \fi
