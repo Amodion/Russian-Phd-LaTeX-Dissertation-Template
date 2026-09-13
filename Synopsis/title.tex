@@ -1,10 +1,13 @@
 \thispagestyle{empty}
 
+{\centering
+\IfFileExists{images/logo.pdf}{\includegraphics[height=1.7cm]{logo}}{\rule[0pt]{0pt}{3.0cm}}\par
+}
+
 \noindent%
-\begin{tabularx}{\textwidth}{@{}lXr@{}}%
-    & & \large{На правах рукописи}\\
-    \IfFileExists{images/logo.pdf}{\includegraphics[height=1.7cm]{logo}}{\rule[0pt]{0pt}{3.0cm}}  & &
-    \ifnumequal{\value{showperssign}}{0}{%
+\begin{tabularx}{\textwidth}{@{}Xr@{}}%
+    & \large{На правах рукописи}\\
+    & \ifnumequal{\value{showperssign}}{0}{%
         \rule[0pt]{0pt}{1.5cm}
     }{
         \includegraphics[height=1.5cm]{personal-signature.png}
@@ -27,12 +30,12 @@
 \large{диссертации на соискание учёной степени\par \thesisDegree}
 
 \vspace{0pt plus1.5fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-{\large Специальность \thesisSpecialtyNumber\ "---\par <<\thesisSpecialtyTitle>>}
+{\large Специальность \thesisSpecialtyNumber\ \"---\par <<\thesisSpecialtyTitle>>}
 
 \end{center}
 
 \ifdefined\thesisSpecialtyTwoNumber
-{\large Специальность \thesisSpecialtyTwoNumber\ "---\par <<\thesisSpecialtyTwoTitle>>}
+{\large Специальность \thesisSpecialtyTwoNumber\ \"---\par <<\thesisSpecialtyTwoTitle>>}
 \fi
 
 \vspace{0pt plus4fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
