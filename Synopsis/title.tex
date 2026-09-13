@@ -44,6 +44,8 @@
 \newpage
 % оборотная сторона обложки
 \thispagestyle{empty}
+\begingroup
+\small
 \noindent Работа выполнена в {\thesisInOrganization}.
 
 \vspace{0.008\paperheight plus1fill}
@@ -95,27 +97,25 @@
     \fi
     }%
     \vspace{0.013\paperheight} \\
-    \ifdefined\leadingOrganizationTitle
-    Ведущая организация:    &
-    \ifnumequal{\value{showopplead}}{0}{\vspace{6\onelineskip plus1fill}}{%
-        \leadingOrganizationTitle
-    }%
-    \fi
 \end{tabularx}
 \vspace{0.008\paperheight plus1fill}
 
-\noindent Защита состоится \defenseDate~на~заседании диссертационного совета \defenseCouncilNumber~при \defenseCouncilTitle~по адресу: \defenseCouncilAddress.
+\noindent Защита состоится \defenseDate~на~заседании диссертационного совета \defenseCouncilNumber~\defenseCouncilTitle~по адресу: \defenseCouncilAddress.
 
 \vspace{0.008\paperheight plus1fill}
-\noindent С диссертацией можно ознакомиться в библиотеке \synopsisLibrary.
-
-\vspace{0.008\paperheight plus1fill}
-\noindent Отзывы на автореферат в двух экземплярах, заверенные печатью учреждения, просьба направлять по адресу: \defenseCouncilAddress, ученому секретарю диссертационного совета~\defenseCouncilNumber.
+\noindent%
+\begin{tabularx}{\textwidth}{@{}>{\centering\arraybackslash}m{0.25\textwidth}@{\hspace{1em}}X@{}}
+    \IfFileExists{images/qr-code.png}{%
+        \includegraphics[width=2.4cm]{qr-code.png}%
+    }{%
+        \parbox[c][2.4cm][c]{0.25\textwidth}{\centering\textbf{МЕСТО ДЛЯ\\QR-КОДА}}%
+    }
+    &
+    С диссертацией можно ознакомиться в научно-технической библиотеке Томского политехнического университета и на сайте dis.tpu.ru при помощи QR-кода.
+\end{tabularx}
 
 \vspace{0.008\paperheight plus1fill}
 \noindent{Автореферат разослан \synopsisDate.}
-
-\noindent Телефон для справок: \defenseCouncilPhone.
 
 \vspace{0.008\paperheight plus1fill}
 \noindent%
@@ -135,3 +135,4 @@ r
     &
     \defenseSecretaryFio
 \end{tabularx}
+\endgroup
