@@ -1,4 +1,5 @@
-% Floating table for part2; requires graphicx.
+% Floating table for part2; requires graphicx and pdflscape.
+\begin{landscape}
 \begin{table}[p]
 \centering
 \caption{Тетраэдрическое расщепление и резонансные взаимодействия для набора полос $4\nu_3$, $\nu_1+3\nu_3$, $2\nu_1+2\nu_3$, $3\nu_1+\nu_3(F_2)$.}
@@ -32,8 +33,7 @@
   \def\5{$l_3=2$ }
   \def\6{$l_3=1$ }
 \scriptsize
-\rotatebox{90}{%
-\resizebox{0.80\textheight}{!}{%
+\resizebox{0.80\linewidth}{!}{%
 \begin{tabular}{|r c|c l|r c|c l|r c l|r c l|}\hline
 & \multicolumn{2}{c}{}                     &&&   \multicolumn{2}{c}{}                           &&&   \multicolumn{1}{c}{}                           &&&   \multicolumn{1}{c}{}                           &  \\
 & \multicolumn{2}{c}{$4\nu_3(F_2)$}        &&&   \multicolumn{2}{c}{$\nu_1+3\nu_3(F_2)$}        &&&   \multicolumn{1}{c}{$2\nu_1+2\nu_3(F_2)$}       &&&   \multicolumn{1}{c}{$3\nu_1+\nu_3(F_2)$}        &  \\
@@ -71,6 +71,6 @@
 \hline
 \end{tabular}
 }%
-}
 \endgroup
 \end{table}
+\end{landscape}

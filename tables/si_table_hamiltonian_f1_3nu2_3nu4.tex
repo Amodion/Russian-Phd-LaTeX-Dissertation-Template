@@ -1,4 +1,5 @@
-% Floating table for part2; requires graphicx.
+% Floating table for part2; requires graphicx and pdflscape.
+\begin{landscape}
 \begin{table}[p]
 \centering
 \caption{Тетраэдрическое расщепление для полосы $3\nu_2+3\nu_4(F_1)$.}
@@ -34,8 +35,7 @@
   \def\5{$l_2=1,l_4=3$ }
   \def\6{$l_2=1,l_4=3$ }
 \scriptsize
-\rotatebox{90}{%
-\resizebox{0.83\textheight}{!}{%
+\resizebox{0.83\linewidth}{!}{%
 \begin{tabular}{|r c|c|c|c|c|c l|}\hline
 &\multicolumn{6}{c}{} & \\
 &\multicolumn{6}{c}{$3\nu_2+3\nu_4(F_1)$} & \\
@@ -73,6 +73,6 @@
 \hline
 \end{tabular}
 }%
-}
 \endgroup
 \end{table}
+\end{landscape}
