@@ -8,6 +8,7 @@
 \newcounter{contnumeq}
 \newcounter{contnumfig}
 \newcounter{contnumtab}
+\newcounter{appnumtab}
 \newcounter{pgnum}
 \newcounter{chapstyle}
 \newcounter{headingdelim}
@@ -38,6 +39,10 @@
 \setcounter{contnumtab}{1}  % 0 --- пораздельно (во введении подряд,
                             %       без номера раздела);
                             % 1 --- сквозная нумерация по всей диссертации
+% Нумерация таблиц в приложениях
+\setcounter{appnumtab}{1}   % 0 --- продолжать нумерацию таблиц без обозначения приложения;
+                            % 1 --- нумеровать отдельно в каждом приложении
+                            %       с обозначением приложения (А.1, А.2, Б.1, ...)
 
 %% Оглавление %%
 \setcounter{pgnum}{1}       % 0 --- номера страниц никак не обозначены;

@@ -84,6 +84,8 @@
 \setlength{\midchapskip}{20pt}
 \renewcommand*{\afterchapternum}{\par\nobreak\vskip \midchapskip}
 \renewcommand\thechapter{\Asbuk{chapter}} % Чтобы приложения русскими буквами нумеровались
+\ifnumequal{\value{appnumtab}}{1}{\counterwithin{table}{chapter}
+}{\counterwithout{table}{chapter}}
 
 \include{Dissertation/appendix}        % Приложения
 
