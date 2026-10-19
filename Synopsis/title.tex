@@ -10,7 +10,7 @@
     & \ifnumequal{\value{showperssign}}{0}{%
         \rule[0pt]{0pt}{1.5cm}
     }{
-        \includegraphics[height=1.5cm]{personal-signature.png}
+        \includegraphics[height=1.9cm]{personal-signature.png}
     }\\
 \end{tabularx}
 
@@ -132,7 +132,7 @@ r
     \defenseSecretaryRegalia
     &
     \ifnumequal{\value{showsecrsign}}{0}{}{%
-        \includegraphics[width=2cm]{secretary-signature.png}%
+        \makebox[\linewidth][c]{\hspace*{-1cm}\includegraphics[width=2.8cm]{secretary-signature.png}}%
     }%
     &
     \defenseSecretaryFio
