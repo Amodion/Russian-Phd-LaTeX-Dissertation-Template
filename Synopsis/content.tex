@@ -285,77 +285,37 @@ HD$^{34}$S
     \insertbiblioauthor           % Подключаем Bib-базы
     %\insertbiblioexternal   % !!! bibtex не умеет работать с несколькими библиографиями !!!
 }{% Реализация пакетом biblatex через движок biber
-    % Цитирования.
-    %  * Порядок перечисления определяет порядок в библиографии (только внутри подраздела, если `\insertbiblioauthorgrouped`).
-    %  * Если не соблюдать порядок "как для \printbibliography", нумерация в `\insertbiblioauthor` будет кривой.
-    %  * Если цитировать каждый источник отдельной командой --- найти некоторые ошибки будет проще.
-    %
-    %% authorvak
-    \nocite{vakbib1}%
-    \nocite{vakbib2}%
-    \nocite{vakbib3}%
-    \nocite{vakbib4}%
-    \nocite{vakbib5}%
-    \nocite{vakbib6}%
-    \nocite{vakbib7}%
-    \nocite{vakbib8}%
-    \nocite{vakbib9}%
-    \nocite{vakbib10}%
-    \nocite{vakbib11}%
-    \nocite{vakbib12}%
-    %
-    %% authorwos
-    \nocite{wosbib1}%
-    %
-    %% authorscopus
-    \nocite{scbib1}%
-    %
-    %% authorpatent
-    \nocite{patbib1}%
-    %
-    %% authorprogram
-    \nocite{progbib1}%
-    %
-    %% authorconf
-    \nocite{confbib1}%
-    \nocite{confbib2}%
-    %
-    %% authorother
-    \nocite{bib1}%
-    \nocite{bib2}%
+    % Авторские работы имеют отдельные ключи: существующий список литературы
+    % и ссылки на публикации в диссертации/автореферате не меняются.
+    \nocite{pub_d2s_sydow2019}%
+    \nocite{pub_hds_sydow2019}%
+    \nocite{pub_ulen1}%
+    \nocite{pub_ulen2}%
 
     \ifnumgreater{\value{usefootcite}}{0}{
+        % В этом режиме внешние источники цитируются в сносках.
+        \pdfbookmark{Список работ, опубликованных автором по теме диссертации}{author-publications}
         \begin{refcontext}[labelprefix={}]
-            \ifnum \value{bibgrouped}>0
-                \insertbiblioauthorgrouped    % Вывод всех работ автора, сгруппированных по источникам
-            \else
-                \insertbiblioauthor      % Вывод всех работ автора
-            \fi
+            \insertbiblioauthor
         \end{refcontext}
     }{
+        % Существующий список литературы и его нумерация сохраняются.
+        \begin{refcontext}[labelprefix={}]
+            \insertbiblioexternal
+        \end{refcontext}
+        % Невидимый подсчет внешних источников для выбора префикса
+        % у списка авторских публикаций.
+        \printbibliography[heading=nobibheading, section=0, env=countexternal, keyword=biblioexternal, resetnumbers=true]%
+
+        % Отдельный завершающий раздел по ГОСТ Р 7.0.11--2011 (п. 8 и 9.3).
+        \pdfbookmark{Список работ, опубликованных автором по теме диссертации}{author-publications}
         \ifnum \totvalue{citeexternal}>0
             \begin{refcontext}[labelprefix=A]
-                \ifnum \value{bibgrouped}>0
-                    \insertbiblioauthorgrouped    % Вывод всех работ автора, сгруппированных по источникам
-                \else
-                    \insertbiblioauthor      % Вывод всех работ автора
-                \fi
+                \insertbiblioauthor
             \end{refcontext}
         \else
-            \ifnum \value{bibgrouped}>0
-                \insertbiblioauthorgrouped    % Вывод всех работ автора, сгруппированных по источникам
-            \else
-                \insertbiblioauthor      % Вывод всех работ автора
-            \fi
+            \insertbiblioauthor
         \fi
-        %  \insertbiblioauthorimportant  % Вывод наиболее значимых работ автора (определяется в файле characteristic во второй section)
-        \begin{refcontext}[labelprefix={}]
-            \insertbiblioexternal            % Вывод списка литературы, на которую ссылались в тексте автореферата
-        \end{refcontext}
-        % Невидимый библиографический список для подсчёта количества внешних публикаций
-        % Используется, чтобы убрать приставку "А" у работ автора, если в автореферате нет
-        % цитирований внешних источников.
-        \printbibliography[heading=nobibheading, section=0, env=countexternal, keyword=biblioexternal, resetnumbers=true]%
     }
 }
 \ifdefmacro{\microtypesetup}{\microtypesetup{protrusion=true}}{}
