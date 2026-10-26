@@ -276,7 +276,7 @@ HD$^{34}$S
 В \underline{\textbf{заключении}} приведены основные результаты работы, которые заключаются в следующем:
 \input{common/concl}
 
-\pdfbookmark{Литература}{bibliography}                                % Закладка pdf
+\pdfbookmark{Список работ, опубликованных автором по теме диссертации}{author-publications}
 \ifdefmacro{\microtypesetup}{\microtypesetup{protrusion=false}}{} % не рекомендуется применять пакет микротипографики к автоматически генерируемому списку литературы
 \urlstyle{rm}                               % ссылки URL обычным шрифтом
 \ifnumequal{\value{bibliosel}}{0}{% Встроенная реализация с загрузкой файла через движок bibtex8
@@ -285,30 +285,19 @@ HD$^{34}$S
     \insertbiblioauthor           % Подключаем Bib-базы
     %\insertbiblioexternal   % !!! bibtex не умеет работать с несколькими библиографиями !!!
 }{% Реализация пакетом biblatex через движок biber
-    % Авторские работы имеют отдельные ключи: существующий список литературы
-    % и ссылки на публикации в диссертации/автореферате не меняются.
+    % Авторские работы имеют отдельные ключи: существующие ссылки на
+    % публикации в диссертации и автореферате не меняются.
     \nocite{pub_d2s_sydow2019}%
     \nocite{pub_hds_sydow2019}%
     \nocite{pub_ulen1}%
     \nocite{pub_ulen2}%
 
+    % Сначала список работ автора, как в исходном шаблоне.
     \ifnumgreater{\value{usefootcite}}{0}{
-        % В этом режиме внешние источники цитируются в сносках.
-        \pdfbookmark{Список работ, опубликованных автором по теме диссертации}{author-publications}
         \begin{refcontext}[labelprefix={}]
             \insertbiblioauthor
         \end{refcontext}
     }{
-        % Существующий список литературы и его нумерация сохраняются.
-        \begin{refcontext}[labelprefix={}]
-            \insertbiblioexternal
-        \end{refcontext}
-        % Невидимый подсчет внешних источников для выбора префикса
-        % у списка авторских публикаций.
-        \printbibliography[heading=nobibheading, section=0, env=countexternal, keyword=biblioexternal, resetnumbers=true]%
-
-        % Отдельный завершающий раздел по ГОСТ Р 7.0.11--2011 (п. 8 и 9.3).
-        \pdfbookmark{Список работ, опубликованных автором по теме диссертации}{author-publications}
         \ifnum \totvalue{citeexternal}>0
             \begin{refcontext}[labelprefix=A]
                 \insertbiblioauthor
@@ -316,6 +305,14 @@ HD$^{34}$S
         \else
             \insertbiblioauthor
         \fi
+
+        % Обычный список литературы сохраняем после публикаций автора.
+        \pdfbookmark{Литература}{bibliography}
+        \begin{refcontext}[labelprefix={}]
+            \insertbiblioexternal
+        \end{refcontext}
+        % Служебный счётчик внешних публикаций оставлен как в шаблоне.
+        \printbibliography[heading=nobibheading, section=0, env=countexternal, keyword=biblioexternal, resetnumbers=true]%
     }
 }
 \ifdefmacro{\microtypesetup}{\microtypesetup{protrusion=true}}{}
